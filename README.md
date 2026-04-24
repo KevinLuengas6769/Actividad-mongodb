@@ -4,7 +4,6 @@
 
 Kevin Luengas
 
----
 
 ##  Descripción del Proyecto
 
@@ -17,7 +16,6 @@ Se implementa un menú interactivo en consola que permite:
 * Actualizar la edad de un estudiante
 * Eliminar estudiantes
 
----
 
 ##  Tecnologías utilizadas
 
@@ -26,7 +24,6 @@ Se implementa un menú interactivo en consola que permite:
 * MongoDB Atlas
 * MongoDB Compass
 
----
 
 ##  Interacción con MongoDB Atlas
 
@@ -43,21 +40,15 @@ Para este proyecto se utilizó MongoDB Atlas como servicio de base de datos en l
 ```python
 from pymongo import MongoClient
 cliente = MongoClient("mongodb+srv://<usuario>:<password>@cluster.mongodb.net/")
-```
 
 6. Se creó la base de datos:
 
-```
 BD_CursoMongo
-```
 
 7. Se creó la colección:
 
-```
 Estudiantes
-```
 
----
 
 ##  Interacción con MongoDB Compass
 
@@ -71,13 +62,11 @@ También se utilizó MongoDB Compass para visualizar y gestionar los datos de fo
 * Verificación de los documentos insertados desde Python
 * Pruebas manuales de inserción y eliminación de datos
 
----
 
 ##  Ejecución del programa
 
 El programa funciona mediante un menú interactivo en consola:
 
-```
  MENÚ DE ESTUDIANTES 
 1. Insertar estudiante
 2. Listar estudiantes
@@ -88,7 +77,6 @@ El programa funciona mediante un menú interactivo en consola:
 
 El usuario puede ingresar datos mediante `input()` y realizar operaciones directamente en la base de datos.
 
----
 
 ##  Ejemplos de uso
 
@@ -97,20 +85,6 @@ El usuario puede ingresar datos mediante `input()` y realizar operaciones direct
 * Se actualizó la edad de algunos registros
 * Se eliminaron estudiantes específicos
 
----
-
-##  Link del repositorio
-
-(Aquí debes pegar el link de tu repositorio de GitHub)
-
-Ejemplo:
-
-```
-https://github.com/tu-usuario/tu-repositorio
-```
-
----
-
 ##  Conclusiones
 
 * Se logró conectar Python con MongoDB en la nube correctamente.
@@ -118,10 +92,8 @@ https://github.com/tu-usuario/tu-repositorio
 * Se comprendió el uso de bases de datos NoSQL.
 * Se utilizó MongoDB Compass para validar visualmente los datos.
 
----
 
 ##  Nota de seguridad
 
 Se recomienda no subir credenciales reales (usuario y contraseña) al repositorio público. En su lugar, usar variables de entorno.
 
----
