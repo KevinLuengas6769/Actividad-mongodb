@@ -12,7 +12,4 @@ También usé MongoDB Compass para ver los datos de forma más visual. Me conect
 
 El programa funciona con un menú donde uno elige qué hacer. Probé agregando datos de compañeros, listándolos, cambiando edades y eliminando algunos para verificar que todo funcionara bien.
 
-Link del repositorio:
-(Aquí va el link de GitHub)
-
 En general, el ejercicio me ayudó a entender cómo conectar Python con MongoDB y cómo manejar datos en una base de datos NoSQL de forma básica.
